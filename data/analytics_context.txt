@@ -1,0 +1,10 @@
+The csv-dataset has 9 columns, seperated by ,:
+    - Columns 1 and 2: Rider's name
+    - Column 3: Total points scored this season. More points = better results. Example: 25 points for 1st place, 20 for 2nd, etc.
+    - Column 4: Overall rating (% of the max possible points scored by the rider so far)
+    - Column 5: Sprint race rating only (short races)
+    - Column 6: Full race rating only (main races)
+    - Column 7: Rating from the last 3 race weekends
+    - Column 8: Rating from the last 5 race events
+    - Column 9: Comparison to the average rating of all riders (e.g., 4.5 = 4.5x better than average)
+

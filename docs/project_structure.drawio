@@ -1,0 +1,54 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Seite-1" id="w2ZjIgECzTaup039tVcT">
+    <mxGraphModel dx="2253" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-7" value="MCP module" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="560" y="407.5" width="210" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-6" value="Python" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="440" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-1" value="Github Inference" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="0atG59zrsLvsSaIt7_Ub-2" target="0atG59zrsLvsSaIt7_Ub-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-2" value="LLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="487.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="0atG59zrsLvsSaIt7_Ub-4" target="0atG59zrsLvsSaIt7_Ub-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-9" value="GITHUB API KEY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0atG59zrsLvsSaIt7_Ub-8">
+          <mxGeometry x="-0.2264" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;" edge="1" parent="1" source="0atG59zrsLvsSaIt7_Ub-4" target="0atG59zrsLvsSaIt7_Ub-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-4" value="llm_agent.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="0atG59zrsLvsSaIt7_Ub-5" target="0atG59zrsLvsSaIt7_Ub-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-5" value="mcp_server.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="487.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-10" value="context documents" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.document;" vertex="1" parent="1">
+          <mxGeometry x="460" y="770" width="27.77" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-12" value="rate limit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="457.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0atG59zrsLvsSaIt7_Ub-15" value="running..." style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.running_playing;" vertex="1" parent="1">
+          <mxGeometry x="700" y="530" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
