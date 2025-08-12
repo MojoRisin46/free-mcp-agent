@@ -4,6 +4,8 @@ A minimal, flexible system to experiment with LLMs, model settings, and MCP (Mod
 
 ---
 
+![project strucure](https://github.com/MojoRisin46/free-mcp-agent/blob/main/docs/project_structure.drawio.svg)
+
 ## 📜 Project Overview
 
 ### Current State
